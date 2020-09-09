@@ -1,0 +1,81 @@
+{
+  "produtos": [
+    {
+      "titulo": "Fogão",
+      "descricao": "Fogão de 4 bocas em aço inox",
+      "preco": "400.00",
+      "img": "fogao_4_bocas.jpg",
+      "categoria": "eletro"
+    },
+    {
+      "titulo": "Geladeira",
+      "descricao": "Geladeira grande",
+      "preco": "2000.00",
+      "img": "geladeira_grande.jpg",
+      "categoria": "eletro"
+    },
+    {
+      "titulo": "Microondas",
+      "descricao": "Com 20 litros",
+      "preco": "279.90",
+      "img": "microondas.jpg",
+      "categoria": "eletro"
+    },
+    {
+      "titulo": "Liquidificador",
+      "descricao": "Faça seus sucos",
+      "preco": "99.00",
+      "img": "liqui.jpg",
+      "categoria": "eletro"
+    },
+    {
+      "titulo": "Máquina de Lavar",
+      "descricao": "Lava e seca",
+      "preco": "3999.00",
+      "img": "lavaeseca.jpg",
+      "categoria": "eletro"
+    },
+    {
+      "titulo": "Aquecedor",
+      "descricao": "Aquecedor com 3 temperaturas",
+      "preco": "220.00",
+      "img": "aquecedor.jpg",
+      "categoria": "eletro"
+    },
+    {
+      "titulo": "Batedeira",
+      "descricao": "Com 5 velocidades",
+      "preco": "150.00",
+      "img": "batedeira.jpg",
+      "categoria": "eletro"
+    },
+    {
+      "titulo": "Ferro de passar",
+      "descricao": "",
+      "preco": "80.00",
+      "img": "ferro.jpg",
+      "categoria": "eletro"
+    },
+    {
+      "titulo": "Jogo de copos",
+      "descricao": "Contém 6 unidades",
+      "preco": "60.00",
+      "img": "copos.jpg",
+      "categoria": "utilidade"
+    },
+    {
+      "titulo": "Jogo de talheres",
+      "descricao": "Contém 30 unidades",
+      "preco": "80.90",
+      "img": "talheres.jpg",
+      "categoria": "utilidade"
+    },
+    {
+      "titulo": "Jogo de pratos",
+      "descricao": "Contém 8 unidades",
+      "preco": "120.90",
+      "img": "pratos.jpg",
+      "categoria": "utilidade"
+    }
+  ]
+}
