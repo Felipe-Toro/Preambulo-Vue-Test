@@ -4,11 +4,11 @@
   >
     <div>
       <div style="font-size: 30vh">
-        <q-icon name="rowing"></q-icon>
+        <q-icon name="done"></q-icon>
       </div>
 
       <div class="text-h2" style="opacity:.4">
-        Oops. Nothing here...
+        Obrigado por comprar conosco.
       </div>
 
       <q-btn
