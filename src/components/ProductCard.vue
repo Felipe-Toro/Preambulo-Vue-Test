@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div v-if="produto">
     <div class="q-pa-lg row items-start q-gutter-md">
       <q-card inline style="width: 300px">
         <q-img
-          :src="'imgs/' + product.img"
+          :src="'imgs/' + produto.img"
           style="height: 170px; max-width: 180px"
         />
 
@@ -12,17 +12,19 @@
             <router-link
               style="text-decoration: none; color: inherit;"
               :to="{ path: '/product', params: { id: 23 } }"
-              >{{ product.titulo }}</router-link
+              >{{ produto.titulo }}</router-link
             >
           </h4>
-          <div class="text-subtitle2">{{ product.categoria }}</div>
+          <div class="text-subtitle2">{{ produto.categoria }}</div>
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          R$ {{ product.preco }}
+          R$ {{ produto.preco }}
         </q-card-section>
         <q-card-actions align="right">
-          <q-btn push color="primary" @click="addToCart()">Add to cart</q-btn>
+          <q-btn push color="primary" @click="addToCart(produto)"
+            >Adicionar ao carrinho</q-btn
+          >
         </q-card-actions>
       </q-card>
     </div>
@@ -31,14 +33,11 @@
 
 <script>
 export default {
-  props: ["product"],
+  props: ["produto"],
 
   methods: {
-    addToCart() {
-      this.$store.dispatch("addProductToCart", {
-        product: this.product,
-        quantity: 1
-      });
+    addToCart(produto) {
+      this.$store.dispatch("app/addToCart", produto);
     }
   }
 };

@@ -1,26 +1,24 @@
 <template>
   <div>
-    <product-list :products="showProducts"> </product-list>
+    <product-list :produtos="showProducts"> </product-list>
   </div>
 </template>
 
 <script>
 import ProductList from "../components/ProductList";
-import { mapState } from "vuex";
+import { mapGetters, mapState } from "vuex";
 
 export default {
   components: {
     ProductList
   },
   computed: {
-    ...mapState("app", ["products"]),
+    ...mapGetters("app", ["precoTotal"]),
+    ...mapState("app", ["produtos"]),
     showProducts() {
       //Calculos para mostra de produtos
-      return this.products;
+      return this.produtos;
     }
-  },
-  mounted() {
-    console.log(this.$store);
   }
 };
 </script>

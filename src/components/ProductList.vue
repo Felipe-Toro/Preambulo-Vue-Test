@@ -1,9 +1,9 @@
 <template>
   <div class="q-pa-lg row items-start q-gutter-md">
     <product-card
-      v-for="product of products"
-      :key="product.titulo"
-      :product="product"
+      v-for="produto of produtos"
+      :key="produto.titulo"
+      :produto="produto"
     ></product-card>
   </div>
 </template>
@@ -15,7 +15,7 @@ export default {
     ProductCard
   },
 
-  props: ["products"]
+  props: ["produtos"]
 };
 </script>
 

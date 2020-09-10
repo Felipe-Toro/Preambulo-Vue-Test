@@ -12,7 +12,7 @@
           </router-link>
         </q-toolbar-title>
         <div>
-          <q-btn-dropdown push color="primary" label="Cart">
+          <q-btn-dropdown push color="primary" label="Carrinho">
             <q-list>
               <q-item @click="$event.stopPropagation()">
                 <mini-cart></mini-cart>
@@ -30,19 +30,9 @@
 </template>
 
 <script>
-import { addProductToCart } from "src/store/app/actions";
-import Product from "../pages/Product";
 import MiniCart from "../components/MiniCart";
 export default {
   components: { MiniCart },
-  name: "MainLayout",
-  methods: {
-    removeFromCart(itemCart) {
-      this.$store.dispatch("app/removeFromCart", itemCart);
-    },
-    addProductToCart(itemCart) {
-      this.$store.dispatch("app/addProductToCart", itemCart);
-    }
-  }
+  name: "MainLayout"
 };
 </script>
