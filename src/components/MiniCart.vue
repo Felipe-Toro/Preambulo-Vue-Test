@@ -19,8 +19,8 @@
     </div>
 
     <hr />
-    <div class="row q-pa-md">
-      <span class="col">Total: {{ precoTotal }}</span>
+    <div class="row q-pa-md" style="font-size: 18px">
+      <strong class="col text-orange">Total: R$ {{ precoTotal }}</strong>
       <div>
         <q-btn
           padding="none"

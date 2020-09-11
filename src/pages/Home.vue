@@ -1,7 +1,12 @@
 <template>
-  <div>
-    <div class="text-right q-mb-md q-pt-md">
-      <q-btn flat icon="mdi-filter-variant" label="filtrar">
+  <div class="q-pa-xm">
+    <div class="text-left q-mb-xs q-pt-sm q-ml-sm">
+      <q-btn
+        flat
+        icon="mdi-filter-variant"
+        label="filtrar"
+        class=" text-grey-7"
+      >
         <q-menu>
           <q-option-group
             v-model="filtro"
@@ -10,12 +15,12 @@
               { label: 'Utilidade', value: 'utilidade' }
             ]"
             color="primary"
-            class="q-pa-md"
+            class="q-pa-md "
             type="checkbox"
           ></q-option-group>
         </q-menu>
       </q-btn>
-      <q-btn class="q-ml-md" flat icon="mdi-sort" label="ordenar">
+      <q-btn class="q-ml-md text-grey-7" flat icon="mdi-sort" label="ordenar">
         <q-menu>
           <q-option-group
             v-model="ordenar"

@@ -1,5 +1,5 @@
 <template>
-  <div class="q-pa-lg row items-start q-gutter-md">
+  <div class="row items-start q-gutter-md">
     <product-card
       v-for="produto of produtos"
       :key="produto.titulo"

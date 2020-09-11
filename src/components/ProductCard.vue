@@ -1,7 +1,7 @@
 <template>
   <div v-if="produto">
     <div class="q-pa-lg row items-start q-gutter-md">
-      <q-card inline style="width: 300px">
+      <q-card inline style="width: 300px" class="q-pt-lg">
         <div style="text-align: center">
           <q-img
             :src="'imgs/' + produto.img"
@@ -10,13 +10,7 @@
         </div>
 
         <q-card-section>
-          <h4 class="text-h6">
-            <router-link
-              style="text-decoration: none; color: inherit;"
-              :to="{ path: '/product', params: { id: 23 } }"
-              >{{ produto.titulo }}</router-link
-            >
-          </h4>
+          <h4 class="text-h6">{{ produto.titulo }}</h4>
           <div class="text-subtitle2">{{ produto.categoria }}</div>
         </q-card-section>
 
@@ -24,7 +18,11 @@
           R$ {{ produto.preco }}
         </q-card-section>
         <q-card-actions align="right">
-          <q-btn push color="primary" @click="addToCart(produto)"
+          <q-btn
+            unelevated
+            color="primary"
+            @click="addToCart(produto)"
+            class="full-width"
             >Adicionar ao carrinho</q-btn
           >
         </q-card-actions>

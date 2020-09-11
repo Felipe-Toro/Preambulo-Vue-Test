@@ -12,7 +12,12 @@
           </router-link>
         </q-toolbar-title>
         <div>
-          <q-btn-dropdown push color="primary" label="Carrinho">
+          <q-btn-dropdown
+            unelevated
+            color="primary"
+            icon="mdi-cart-outline"
+            label="Carrinho"
+          >
             <q-list>
               <q-item @click="$event.stopPropagation()">
                 <mini-cart></mini-cart>
