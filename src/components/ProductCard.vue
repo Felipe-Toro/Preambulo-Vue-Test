@@ -2,10 +2,12 @@
   <div v-if="produto">
     <div class="q-pa-lg row items-start q-gutter-md">
       <q-card inline style="width: 300px">
-        <q-img
-          :src="'imgs/' + produto.img"
-          style="height: 170px; max-width: 180px"
-        />
+        <div style="text-align: center">
+          <q-img
+            :src="'imgs/' + produto.img"
+            style="height: 170px; max-width:180px; text-align:center"
+          />
+        </div>
 
         <q-card-section>
           <h4 class="text-h6">

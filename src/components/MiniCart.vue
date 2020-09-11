@@ -1,7 +1,7 @@
 <template>
   <div style="min-width:320px; right:0; left:auto" aria-labelledby="triggerId">
     <div v-for="cartItem of cart" :key="cartItem.titulo">
-      <div>
+      <div class="q-pa-md">
         <div class="row">
           <strong class="col">{{ cartItem.titulo }}</strong>
           <div>
@@ -19,7 +19,7 @@
     </div>
 
     <hr />
-    <div class="row">
+    <div class="row q-pa-md">
       <span class="col">Total: {{ precoTotal }}</span>
       <div>
         <q-btn
