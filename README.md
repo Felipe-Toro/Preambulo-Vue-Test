@@ -12,7 +12,7 @@ Para o desenvolvimento desta aplicação, que foi requisitado o uso do Vue.Js, u
 
 ## Experiência pessoal
 
-Este foi o meu primeiro projeto utilizando o Vuex, que é um padrão de gerenciamento de estado + biblioteca para aplicativos Vue.js. Por nunca ter utilizado antes, tive que estudar sobre enquanto realizava o projeto, foi uma experiência incrível onde eu pude aprender sobre Vuex e aprimorar meus conhecimentos gerais a respeito do próprio Vue. Por conta desse ter sido o primeiro contato com a técnologia Vuex, não obtive sucesso na realização de alguns requisitos do projetos, com: gerencimaneto de carrinho, filtros e categorias. Com certeza com um pouco mais de estudo e preparo eu poderia realizar tais atividades. Ao final desse projeto coloquei Vuex no topo da minha lista de estudos e dedicarei um bom tempo para ele.
+Este foi o meu primeiro projeto utilizando o Vuex, que é um padrão de gerenciamento de estado + biblioteca para aplicativos Vue.js. Por nunca ter utilizado antes, tive que estudar sobre enquanto realizava o projeto, foi uma experiência incrível onde eu pude aprender sobre Vuex e aprimorar meus conhecimentos gerais a respeito do próprio Vue. . Ao final desse projeto coloquei Vuex no topo da minha lista de estudos e dedicarei um bom tempo para ele.
 
 
 
