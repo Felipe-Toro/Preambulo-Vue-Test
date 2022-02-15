@@ -18,7 +18,7 @@ Este foi o meu primeiro projeto utilizando o Vuex, que é um padrão de gerencia
 
 ## Agradecimentos
 
-Apesar de alguns requisitos faltando, eu agradeço muito a oportunidade para realização deste teste, posso afirmar com toda certeza que meus conhecimentos a respeito de Vue aumentaram e muito. 
+Eu agradeço muito a oportunidade para realização deste teste, posso afirmar com toda certeza que meus conhecimentos a respeito de Vue aumentaram e muito. 
 
 
 
